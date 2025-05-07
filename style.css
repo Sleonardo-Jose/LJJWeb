@@ -29,7 +29,6 @@ header {
 
 header .info {
     text-align: right;
-    /* Para alinhar o texto e botão */
 }
 
 header p {
@@ -100,4 +99,66 @@ footer {
     text-align: center;
     margin-top: 25px;
     color: #0a66c2;
+}
+
+/* Estilo para a seção de serviços */
+.servicos {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.servicos h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #0052D4;
+    margin-bottom: 20px;
+}
+
+.servicos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.servicos ul li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.servicos ul li::before {
+    content: "✔";
+    color: #0052D4;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Estilo para o botão de call-to-action */
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta button {
+    padding: 15px 30px;
+    background-color: #25D366;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta button:hover {
+    background-color: #128C7E;
+    transform: scale(1.05);
 }

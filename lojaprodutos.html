@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cartão de Visita</title>
+    <title>Loja de Produtos</title>
 
     <style>
         /* Estilos Gerais */
@@ -15,9 +15,10 @@
         }
         
         body {
-            background: radial-gradient(circle, #1a28a8, #128c78);
+            background: radial-gradient(circle, #0a0a0a, #0954b6);
             color: #fff;
             line-height: 1.6;
+            padding: 20px;
         }
         
         /* Cabeçalhos */
@@ -44,7 +45,7 @@
         img {
             display: block;
             margin: 20px auto;
-            max-width: 300px; /* Ajuste para imagens responsivas */
+            max-width: 100%; /* Responsividade */
             height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -73,15 +74,34 @@
         button:active {
             transform: scale(0.98); /* Efeito ao clicar */
         }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1rem;
+            }
+
+            button {
+                font-size: 0.9rem;
+                padding: 10px 20px;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Portfolio de produtos</h1>
-    <img src="img/site produtos.png" alt="Modelo de Cartão"> <!-- Substituir por uma imagem real -->
+    <h1>Portfólio de Produtos</h1>
+    <img src="img/site produtos.png" alt="Modelo de Cartão de Visita"> <!-- Nome da imagem ajustado -->
     <h2>Modelo de Cartão de Visita</h2>
     <h3>
-        Este é um exemplo de um cartão de visita digital. Ele pode ser utilizado para apresentar informações de contato, redes sociais e outros detalhes relevantes. O design é responsivo e se adapta a diferentes tamanhos de tela.
-        <br><br>
+        Este é um exemplo de um site comercial de vendas. Ele pode ser utilizado para apresentar informações de contato, redes sociais e outros detalhes relevantes. O design é responsivo e se adapta a diferentes tamanhos de tela. Também é possível adicionar animações e efeitos visuais para tornar a experiência do usuário mais envolvente e confortável.
     </h3>
     <button type="button" onclick="window.location.href='modelos.html'">Voltar para o Site</button>
 </body>
