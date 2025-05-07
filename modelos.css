@@ -1,0 +1,122 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f4f8;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #0052D4, #4364F7, #6FB1FC);
+    padding: 30px 60px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#logo img {
+    width: 200px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+header .info {
+    text-align: right;/* Para alinhar o texto e botão */
+}
+
+header h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+footer{
+    
+    align-items: center;
+    color: #f0f4f8;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #0052D4, #4364F7, #6FB1FC);
+    padding: 30px 60px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+   border-radius: 30px 30px 0px 0px;
+}
+.botao-voltar {
+    background-color: #0066ff; /* azul igual aos outros */
+    color: white; /* texto branco */
+    border: none;
+    border-radius: 8px; /* borda arredondada */
+    padding: 10px 20px; /* espaço interno */
+    font-size: 16px; /* tamanho da fonte */
+    font-weight: bold; /* texto mais "pesado" */
+    cursor: pointer; /* muda o cursor para mãozinha */
+    transition: background-color 0.3s ease; /* animação suave */
+  }
+  
+  .botao-voltar:hover {
+    background-color: #0052cc; /* tom um pouco mais escuro no hover */
+  }
+#modelos {
+    text-align: center;
+}
+
+#modelos h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #0052D4;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #0052D4;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background-color: #003fa3;
+}
