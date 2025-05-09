@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Joalheria</title>
+
+    <!-- Fonte externa -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Estilos Gerais */
+        * {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: radial-gradient(circle, #0a0a0a, #b6b309);
+            color: #fff;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        /* Cabeçalhos */
+        h1, h2, h3 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            margin: 10px auto;
+            max-width: 800px;
+        }
+
+        /* Imagem */
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%; /* Responsividade */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Botão */
+        button {
+            display: block;
+            margin: 30px auto;
+            padding: 12px 25px;
+            background-color: #0066ff; /* Azul chamativo */
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #004eb8; /* Efeito hover */
+            transform: scale(1.05); /* Leve aumento no tamanho */
+        }
+
+        button:active {
+            transform: scale(0.98); /* Efeito ao clicar */
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1rem;
+            }
+
+            button {
+                font-size: 0.9rem;
+                padding: 10px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+            }
+
+            h3 {
+                font-size: 0.9rem;
+                padding: 0 15px; /* Ajuste adicional para telas muito pequenas */
+            }
+
+            img {
+                max-width: 100%; /* Garante que a imagem ocupe toda a largura disponível */
+            }
+
+            button {
+                font-size: 0.8rem;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho principal -->
+    <header>
+        <h1>Modelo de Joalheria</h1>
+    </header>
+
+    <!-- Imagem principal -->
+    <section>
+        <img src="img/joalheria.png" alt="Modelo de Joalheria"> <!-- Substituir por uma imagem real -->
+    </section>
+
+    <!-- Descrição -->
+    <section>
+        <h2>Modelo de Joalheria</h2>
+        <h3>
+            Criamos cartões para empresas, lojas, serviços e muito mais. <br>
+            Entre em contato para mais informações e solicite já o seu.
+        </h3>
+    </section>
+
+    <!-- Botão de navegação -->
+    <section>
+        <button type="button" onclick="window.location.href='modelos.html'">Voltar para o Site</button>
+    </section>
+</body>
+</html>
