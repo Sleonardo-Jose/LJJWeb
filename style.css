@@ -162,3 +162,62 @@ footer {
     background-color: #128C7E;
     transform: scale(1.05);
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #logo img {
+        width: 150px;
+    }
+
+    header p {
+        font-size: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .sobre-nos, .servicos {
+        padding: 15px;
+    }
+
+    .cta button {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px;
+    }
+
+    #logo img {
+        width: 120px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    .sobre-nos, .servicos {
+        padding: 10px;
+    }
+
+    .cta button {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+}
